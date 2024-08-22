@@ -1,0 +1,89 @@
+.card {
+  border: 0.1rem solid #ddd;
+  border-radius: 0.3rem;
+  padding: 1rem;
+  margin: 0.5rem;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardId {
+  font-size: 0.8rem;
+  color: #939090;
+}
+
+.cardContent {
+  display: flex;
+  align-items: center;
+}
+
+.cardImage {
+  width: 1rem;
+  height: 1rem;
+  object-fit: cover;
+  border-radius: 0.4rem;
+}
+
+.cardTitle {
+  font-size: 1rem;
+  font-weight: 400;
+  max-height: 4.2rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0.4rem 0.2rem 0.4rem 0.4rem;
+}
+
+.cardFooter {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 0.2rem;
+}
+
+.footerIcon {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.5rem;
+  border: 0.1rem solid #ddd;
+  border-radius: 0.2rem;
+  padding: 0.2rem;
+}
+
+.footerItem,
+.footerItemWithText {
+  display: flex;
+  align-items: center;
+}
+
+.footerText {
+  font-size: 0.875rem;
+  color: #939090;
+}
+
+.footerSecondIcon {
+  width: 0.9rem;
+  height: 0.9rem;
+  margin-right: 0.3rem;
+}
+
+.footerItemWithText {
+  border: 0.1rem solid #ddd;
+  border-radius: 0.2rem;
+  padding: 0.2rem;
+}
+
+.GeyIndicator {
+  width: 0.8rem;
+  height: 0.8rem;
+  background: #dddddd;
+  border-radius: 0.5rem;
+  margin: 0rem 0.3rem 0rem 0.1rem;
+}

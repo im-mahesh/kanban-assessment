@@ -1,0 +1,60 @@
+.columnHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding: 0rem 1rem 0rem 1rem;
+}
+
+.borderAndRadiusNone {
+  border-radius: none;
+  border: none;
+}
+
+.statusIndicator {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  position: absolute;
+  right: 0.3rem;
+  bottom: 0.2rem;
+}
+
+.statusIndicator.green {
+  background-color: green;
+  border: 2px solid white;
+}
+
+.statusIndicator.red {
+  background-color: #e8b601;
+  border: 2px solid white;
+}
+
+.info {
+  flex-grow: 1;
+  display: flex;
+  margin-left: 0.5rem;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.taskCount {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.images {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-left: 0.5rem;
+}
